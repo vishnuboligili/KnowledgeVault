@@ -49,42 +49,50 @@ KnowledgeVault is a secure, full-featured note and task management platform buil
    git clone https://github.com/vishnuboligili/KnowledgeVault.git
    cd knowledgevault
    
-###  Backend Setup  
+### Backend Setup
+- Navigate to the backend directory:
 
-1. Navigate to the backend directory:  
-   ```bash
-   cd backend
-2.Install the required dependencies:
-  ```bash
-  npm install
-3.Create a .env file in the backend directory and add your environment variables:
-  ```bash
-  MONGO_URI=<your_mongo_db_connection_string>
-  JWT_SECRET=<your_jwt_secret_key>
-  PORT=5000
-  DB_NAME=<your_database_name>
-  CORS_ORIGIN=<cors_origin>
-4.Start the backend server
-  ```bash
-  npm run dev
+    ```bash
+    cd backend
+    ```
+- Install the required dependencies:
+    ```bash
+    npm install
+    ```
+- Create a .env file in the backend directory and add your environment variables:
+    ```bash
+    MONGO_URI=<your_mongo_db_connection_string>
+    JWT_SECRET=<your_jwt_secret_key>
+    PORT=5000
+    DB_NAME=<your_database_name>
+    CORS_ORIGIN=<cors_origin>
+    ```
+- Start the backend server
+    ```bash
+    npm run dev
+    ```
 
 ### Frontend Setup
+- Navigate to the frontend directory:
 
-1.Navigate to the frontend directory:
-  ```bas
-  cd frontend
-2.Install the required dependencies:
-  ```bash
-  npm install
-3.Create a .env file in the frontend directory and add your environment variables:
-  ```bash
-  VITE_APP_CONTACT_URL=<contact form url>
-  VITE_APP_API_KEY=http://localhost:5000/api
-4.Start the frontend development server:
-  ```bash
-  npm run dev
+    ```bash
+    cd frontend
+    ```
+- Install the required dependencies:
 
-###  Running the Application
-1.Ensure both the frontend and backend servers are running.
+    ```bash
+    npm install
+    ```
+- Create a .env file in the frontend directory and add your environment variables:
+    ```bash
+    VITE_APP_CONTACT_URL=<contact form url>
+    VITE_APP_API_KEY=http://localhost:5000/api
+    ```
+- Start the frontend development server:
+    ```bash
+    npm run dev
+    ```
 
-2.Open your browser and navigate to http://localhost:5173.
+### Running the Application
+- Ensure both the frontend and backend servers are running.
+- Open your browser and navigate to http://localhost:5173.
